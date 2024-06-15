@@ -9,7 +9,7 @@ fun main() {
         val jobDeferred:Deferred<Int> = async {
             println("Fake work starts: ${Thread.currentThread().name}")
             delay(10000)
-            println("Fake work finished: ${Thread.currentThread().name}")
+            println("Fake worrrrrk finished: ${Thread.currentThread().name}")
             15
         }
 
